@@ -9,19 +9,226 @@ body {
 }
 div.timeline h2{
   text-align: center;
-  color: #005EB8;
+  color: black;
   font-weight: bold;
+  font-size: 35px;
+
+}
+h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 25;
+}
+p {
+  color: #005EB8;
+  padding: 10px;
+  background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.4));
+  background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.4));
+  text-align: justify;
+ line-height: 28px;
+ position: absolute;
+ bottom: 0;
+ margin: 0px;
+ font-size: 18px;
+ font-weight: bold;
 }
 
-p {
-  background-color: ;
-}
 #A1948 {
 background-image: url("ABpic.jpg");
-background-size:auto;
-background-attachment:fixed;
+background-size:100%;
+background-position: center;
+background-repeat: repeat;
 height: 400px;
+margin: 0 auto;
 }
+#A1954 {
+background-image: url("smoking2.png");
+background-size:contain;
+background-position: center;
+height: 400px;
+margin: 0 auto;
+}
+
+#A1958 {
+background-image: url("polio2.jpg");
+background-size:140%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A1959 {
+background-image: url("Mental-Health.jpg");
+background-size:120%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A1960 {
+background-image: url("kidney.jpg");
+background-size:140%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A1961 {
+background-image: url("conraceptive.jpg");
+background-size:140%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A1962 {
+background-image: url("hip.jpg");
+background-size:110%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A1967 {
+background-image: url("abortion.jpeg");
+background-size:140%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A1968 {
+background-image: url("heart.jpg");
+background-size:100%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A1972 {
+background-image: url("ct.png");
+background-size:100%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A1978 {
+background-image: url("ivf.jpg");
+background-size:100%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A1979 {
+background-image: url("BM.jpg");
+background-size:100%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A1980 {
+background-image: url("key.jpg");
+background-size:120%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A1986 {
+background-image: url("aids2.webp");
+background-size:100%;
+background-position: center;
+background-repeat: no-repeat;
+height: 350px;
+margin: 0 auto;
+}
+
+#A1988 {
+background-image: url("breast.jpg");
+background-size:130%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A1990 {
+background-image: url("nhs.png");
+background-size:100%;
+background-repeat: no-repeat;
+height: 350px;
+background-position: center;
+margin: 0 auto;
+}
+
+#A1994 {
+background-image: url("donor.jpg");
+background-size:105%;
+background-repeat: no-repeat;
+background-position: center;
+height: 350px;
+margin: 0 auto;
+}
+
+#A1998 {
+background-image: url("NHS-direct.jpg");
+background-size:90%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A2002 {
+background-image: url("PCT.jpg");
+background-size:105%;
+background-repeat: no-repeat;
+background-position: center;
+height: 400px;
+margin: 0 auto;
+}
+
+#A2009 {
+background-image: url("c4l.png");
+background-size:60%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A2012 {
+background-image: url("hs.png");
+background-size:100%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
+#A2014 {
+background-image: url("fyfv.jpg");
+background-size:100%;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+margin: 0 auto;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
