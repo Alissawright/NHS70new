@@ -1,0 +1,6 @@
+function multiplier(number1, number2){
+  console.log(number1*number2)
+}
+multiplier(10, 14)
+
+$('h1').css('color', 'white');
