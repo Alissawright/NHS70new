@@ -19,6 +19,13 @@ h2 {
   font-weight: bold;
   font-size: 25;
 }
+
+.container-fluid {
+  background-color: white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
 p {
   color: #005EB8;
   padding: 10px;
