@@ -17,13 +17,23 @@ div.timeline h2{
 h2 {
   color: black;
   font-weight: bold;
-  font-size: 25;
+  font-size: 15;
 }
+
+p:hover {
+    background-color: white;
+    color: #005EB8
+}
+
+h2:hover {
+  font-size: 40;
+}
+
 p {
   color: #005EB8;
   padding: 10px;
-  background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.4));
-  background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.4));
+  background: -webkit-linear-gradient(bottom, rgba(255,255,255,0.2), rgba(255,255,255,.4));
+  background: -moz-linear-gradient(bottom, rgba(255,255,255,0.2), rgba(255,255,255,.4));
   text-align: justify;
  line-height: 28px;
  position: absolute;
@@ -315,6 +325,11 @@ margin: 0 auto;
 /* Fix the circle for containers on the right side */
 .left::after {
   left: 645px;
+}
+.container-fluid {
+  background-color: white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 /* The actual content */
