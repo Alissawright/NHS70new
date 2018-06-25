@@ -1,9 +1,8 @@
-h1 {
-  color: green;
+.mainheader {
+  color:#005EB8;
+  font-weight: bold;
 }
+h1 {
+  color: black;
 
-#map {
-width:400px;
-height:400px;
-margin: auto;
 }
